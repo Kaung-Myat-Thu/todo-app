@@ -7,17 +7,20 @@
       {{ title }}
     </h1>
     <Form />
+    <Footer />
   </div>
 </template>
 
 <script>
 import Form from "./Form.vue";
+import Footer from "./Footer.vue";
 export default {
   props: {
     title: String,
   },
   components: {
     Form,
+    Footer,
   },
 };
 </script>
